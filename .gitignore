@@ -27,4 +27,8 @@ __pycache__/
 *.pyo
 
 # 排除数据文件（如果需要的话）
-# ENTER/ 
+# ENTER/
+ENTER/envs/
+ENTER/pkgs/
+ENTER/lib/
+ENTER/_conda 
