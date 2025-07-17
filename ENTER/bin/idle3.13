@@ -1,0 +1,5 @@
+#!/mnt/sevenT/spinfer/SpInfer_EuroSys25/ENTER/bin/python3.13
+
+from idlelib.pyshell import main
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,52 @@
+{
+  "arch": "x86_64",
+  "build": "py313h06a4308_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "conda >=24.11",
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "extracted_package_dir": "/mnt/sevenT/spinfer/SpInfer_EuroSys25/ENTER/pkgs/conda-anaconda-telemetry-0.1.2-py313h06a4308_1",
+  "files": [
+    "lib/python3.13/site-packages/conda_anaconda_telemetry-0.1.2.dist-info/INSTALLER",
+    "lib/python3.13/site-packages/conda_anaconda_telemetry-0.1.2.dist-info/METADATA",
+    "lib/python3.13/site-packages/conda_anaconda_telemetry-0.1.2.dist-info/RECORD",
+    "lib/python3.13/site-packages/conda_anaconda_telemetry-0.1.2.dist-info/REQUESTED",
+    "lib/python3.13/site-packages/conda_anaconda_telemetry-0.1.2.dist-info/WHEEL",
+    "lib/python3.13/site-packages/conda_anaconda_telemetry-0.1.2.dist-info/direct_url.json",
+    "lib/python3.13/site-packages/conda_anaconda_telemetry-0.1.2.dist-info/entry_points.txt",
+    "lib/python3.13/site-packages/conda_anaconda_telemetry-0.1.2.dist-info/licenses/LICENSE",
+    "lib/python3.13/site-packages/conda_anaconda_telemetry/__init__.py",
+    "lib/python3.13/site-packages/conda_anaconda_telemetry/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/conda_anaconda_telemetry/__pycache__/_version.cpython-313.pyc",
+    "lib/python3.13/site-packages/conda_anaconda_telemetry/__pycache__/hooks.cpython-313.pyc",
+    "lib/python3.13/site-packages/conda_anaconda_telemetry/_version.py",
+    "lib/python3.13/site-packages/conda_anaconda_telemetry/hooks.py",
+    "lib/python3.13/site-packages/conda_anaconda_telemetry/py.typed"
+  ],
+  "fn": "conda-anaconda-telemetry-0.1.2-py313h06a4308_1.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/mnt/sevenT/spinfer/SpInfer_EuroSys25/ENTER/pkgs/conda-anaconda-telemetry-0.1.2-py313h06a4308_1",
+    "type": 1
+  },
+  "md5": "2d1b1b3f339fb81ee8a55b778da10a25",
+  "name": "conda-anaconda-telemetry",
+  "package_tarball_full_path": "/mnt/sevenT/spinfer/SpInfer_EuroSys25/ENTER/pkgs/conda-anaconda-telemetry-0.1.2-py313h06a4308_1.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "defaults/linux-64::conda-anaconda-telemetry==0.1.2=py313h06a4308_1[md5=2d1b1b3f339fb81ee8a55b778da10a25]",
+  "sha256": "f91d88d0beb422323216fe7458bbd5409670479975a625b538119d29b77a2b32",
+  "size": 14715,
+  "subdir": "linux-64",
+  "timestamp": 1744662601000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/conda-anaconda-telemetry-0.1.2-py313h06a4308_1.conda",
+  "version": "0.1.2"
+}

@@ -1,0 +1,48 @@
+{
+  "arch": "x86_64",
+  "build": "py313h6a678d5_9",
+  "build_number": 9,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=11.2.0",
+    "libstdcxx-ng >=11.2.0",
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "extracted_package_dir": "/mnt/sevenT/spinfer/SpInfer_EuroSys25/ENTER/pkgs/brotli-python-1.0.9-py313h6a678d5_9",
+  "files": [
+    "lib/python3.13/site-packages/Brotli-1.0.9.dist-info/INSTALLER",
+    "lib/python3.13/site-packages/Brotli-1.0.9.dist-info/LICENSE",
+    "lib/python3.13/site-packages/Brotli-1.0.9.dist-info/METADATA",
+    "lib/python3.13/site-packages/Brotli-1.0.9.dist-info/RECORD",
+    "lib/python3.13/site-packages/Brotli-1.0.9.dist-info/REQUESTED",
+    "lib/python3.13/site-packages/Brotli-1.0.9.dist-info/WHEEL",
+    "lib/python3.13/site-packages/Brotli-1.0.9.dist-info/direct_url.json",
+    "lib/python3.13/site-packages/Brotli-1.0.9.dist-info/top_level.txt",
+    "lib/python3.13/site-packages/__pycache__/brotli.cpython-313.pyc",
+    "lib/python3.13/site-packages/_brotli.cpython-313-x86_64-linux-gnu.so",
+    "lib/python3.13/site-packages/brotli.py"
+  ],
+  "fn": "brotli-python-1.0.9-py313h6a678d5_9.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/mnt/sevenT/spinfer/SpInfer_EuroSys25/ENTER/pkgs/brotli-python-1.0.9-py313h6a678d5_9",
+    "type": 1
+  },
+  "md5": "48f87f78b5774d723589e95ed14daafe",
+  "name": "brotli-python",
+  "package_tarball_full_path": "/mnt/sevenT/spinfer/SpInfer_EuroSys25/ENTER/pkgs/brotli-python-1.0.9-py313h6a678d5_9.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "defaults/linux-64::brotli-python==1.0.9=py313h6a678d5_9[md5=48f87f78b5774d723589e95ed14daafe]",
+  "sha256": "9178be47690f6bd83c4d85ba2a624b4a38119a4629208fd78e639f798f1c7ae1",
+  "size": 364171,
+  "subdir": "linux-64",
+  "timestamp": 1736182698000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/brotli-python-1.0.9-py313h6a678d5_9.conda",
+  "version": "1.0.9"
+}

@@ -1,0 +1,52 @@
+{
+  "arch": "x86_64",
+  "build": "py313h4aa5aa6_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=11.2.0",
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313",
+    "typing-extensions >=4.6.0,!=4.7.0"
+  ],
+  "extracted_package_dir": "/mnt/sevenT/spinfer/SpInfer_EuroSys25/ENTER/pkgs/pydantic-core-2.27.1-py313h4aa5aa6_0",
+  "files": [
+    "lib/python3.13/site-packages/pydantic_core-2.27.1.dist-info/INSTALLER",
+    "lib/python3.13/site-packages/pydantic_core-2.27.1.dist-info/METADATA",
+    "lib/python3.13/site-packages/pydantic_core-2.27.1.dist-info/RECORD",
+    "lib/python3.13/site-packages/pydantic_core-2.27.1.dist-info/REQUESTED",
+    "lib/python3.13/site-packages/pydantic_core-2.27.1.dist-info/WHEEL",
+    "lib/python3.13/site-packages/pydantic_core-2.27.1.dist-info/direct_url.json",
+    "lib/python3.13/site-packages/pydantic_core-2.27.1.dist-info/license_files/LICENSE",
+    "lib/python3.13/site-packages/pydantic_core/__init__.py",
+    "lib/python3.13/site-packages/pydantic_core/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/pydantic_core/__pycache__/core_schema.cpython-313.pyc",
+    "lib/python3.13/site-packages/pydantic_core/_pydantic_core.cpython-313-x86_64-linux-gnu.so",
+    "lib/python3.13/site-packages/pydantic_core/_pydantic_core.pyi",
+    "lib/python3.13/site-packages/pydantic_core/core_schema.py",
+    "lib/python3.13/site-packages/pydantic_core/py.typed"
+  ],
+  "fn": "pydantic-core-2.27.1-py313h4aa5aa6_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/mnt/sevenT/spinfer/SpInfer_EuroSys25/ENTER/pkgs/pydantic-core-2.27.1-py313h4aa5aa6_0",
+    "type": 1
+  },
+  "md5": "3d619f57beecf895d3601d2ff21bfed9",
+  "name": "pydantic-core",
+  "package_tarball_full_path": "/mnt/sevenT/spinfer/SpInfer_EuroSys25/ENTER/pkgs/pydantic-core-2.27.1-py313h4aa5aa6_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "defaults/linux-64::pydantic-core==2.27.1=py313h4aa5aa6_0[md5=3d619f57beecf895d3601d2ff21bfed9]",
+  "sha256": "27fba1a02a42db7b6de9a40aa49b000d7c3e4a5a94d0025a6ea0801cc0284b56",
+  "size": 1547754,
+  "subdir": "linux-64",
+  "timestamp": 1734726321000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/pydantic-core-2.27.1-py313h4aa5aa6_0.conda",
+  "version": "2.27.1"
+}

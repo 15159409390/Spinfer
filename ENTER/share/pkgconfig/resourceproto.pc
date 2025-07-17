@@ -1,0 +1,7 @@
+prefix=/mnt/sevenT/spinfer/SpInfer_EuroSys25/ENTER
+includedir=${prefix}/include
+ 
+Name: ResourceProto
+Description: Resource extension headers
+Version: 1.2.0
+Cflags: -I${includedir}

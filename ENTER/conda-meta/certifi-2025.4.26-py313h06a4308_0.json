@@ -1,0 +1,52 @@
+{
+  "arch": "x86_64",
+  "build": "py313h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "extracted_package_dir": "/mnt/sevenT/spinfer/SpInfer_EuroSys25/ENTER/pkgs/certifi-2025.4.26-py313h06a4308_0",
+  "files": [
+    "lib/python3.13/site-packages/certifi-2025.4.26.dist-info/INSTALLER",
+    "lib/python3.13/site-packages/certifi-2025.4.26.dist-info/LICENSE",
+    "lib/python3.13/site-packages/certifi-2025.4.26.dist-info/METADATA",
+    "lib/python3.13/site-packages/certifi-2025.4.26.dist-info/RECORD",
+    "lib/python3.13/site-packages/certifi-2025.4.26.dist-info/REQUESTED",
+    "lib/python3.13/site-packages/certifi-2025.4.26.dist-info/WHEEL",
+    "lib/python3.13/site-packages/certifi-2025.4.26.dist-info/direct_url.json",
+    "lib/python3.13/site-packages/certifi-2025.4.26.dist-info/top_level.txt",
+    "lib/python3.13/site-packages/certifi/__init__.py",
+    "lib/python3.13/site-packages/certifi/__main__.py",
+    "lib/python3.13/site-packages/certifi/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/certifi/__pycache__/__main__.cpython-313.pyc",
+    "lib/python3.13/site-packages/certifi/__pycache__/core.cpython-313.pyc",
+    "lib/python3.13/site-packages/certifi/cacert.pem",
+    "lib/python3.13/site-packages/certifi/core.py",
+    "lib/python3.13/site-packages/certifi/py.typed"
+  ],
+  "fn": "certifi-2025.4.26-py313h06a4308_0.conda",
+  "license": "MPL-2.0",
+  "license_family": "Other",
+  "link": {
+    "source": "/mnt/sevenT/spinfer/SpInfer_EuroSys25/ENTER/pkgs/certifi-2025.4.26-py313h06a4308_0",
+    "type": 1
+  },
+  "md5": "d99fbc94185f7af92889b3647b2aae93",
+  "name": "certifi",
+  "package_tarball_full_path": "/mnt/sevenT/spinfer/SpInfer_EuroSys25/ENTER/pkgs/certifi-2025.4.26-py313h06a4308_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "defaults/linux-64::certifi==2025.4.26=py313h06a4308_0[md5=d99fbc94185f7af92889b3647b2aae93]",
+  "sha256": "cc34260a4d29d1f9a22e5028035d2e6951e800d36a110e14c72f617cddf5b986",
+  "size": 160066,
+  "subdir": "linux-64",
+  "timestamp": 1745939261000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/certifi-2025.4.26-py313h06a4308_0.conda",
+  "version": "2025.4.26"
+}

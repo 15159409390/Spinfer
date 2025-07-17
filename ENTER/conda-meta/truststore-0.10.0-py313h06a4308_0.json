@@ -1,0 +1,56 @@
+{
+  "arch": "x86_64",
+  "build": "py313h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "extracted_package_dir": "/mnt/sevenT/spinfer/SpInfer_EuroSys25/ENTER/pkgs/truststore-0.10.0-py313h06a4308_0",
+  "files": [
+    "lib/python3.13/site-packages/truststore-0.10.0.dist-info/INSTALLER",
+    "lib/python3.13/site-packages/truststore-0.10.0.dist-info/LICENSE",
+    "lib/python3.13/site-packages/truststore-0.10.0.dist-info/METADATA",
+    "lib/python3.13/site-packages/truststore-0.10.0.dist-info/RECORD",
+    "lib/python3.13/site-packages/truststore-0.10.0.dist-info/REQUESTED",
+    "lib/python3.13/site-packages/truststore-0.10.0.dist-info/WHEEL",
+    "lib/python3.13/site-packages/truststore-0.10.0.dist-info/direct_url.json",
+    "lib/python3.13/site-packages/truststore/__init__.py",
+    "lib/python3.13/site-packages/truststore/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/truststore/__pycache__/_api.cpython-313.pyc",
+    "lib/python3.13/site-packages/truststore/__pycache__/_macos.cpython-313.pyc",
+    "lib/python3.13/site-packages/truststore/__pycache__/_openssl.cpython-313.pyc",
+    "lib/python3.13/site-packages/truststore/__pycache__/_ssl_constants.cpython-313.pyc",
+    "lib/python3.13/site-packages/truststore/__pycache__/_windows.cpython-313.pyc",
+    "lib/python3.13/site-packages/truststore/_api.py",
+    "lib/python3.13/site-packages/truststore/_macos.py",
+    "lib/python3.13/site-packages/truststore/_openssl.py",
+    "lib/python3.13/site-packages/truststore/_ssl_constants.py",
+    "lib/python3.13/site-packages/truststore/_windows.py",
+    "lib/python3.13/site-packages/truststore/py.typed"
+  ],
+  "fn": "truststore-0.10.0-py313h06a4308_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/mnt/sevenT/spinfer/SpInfer_EuroSys25/ENTER/pkgs/truststore-0.10.0-py313h06a4308_0",
+    "type": 1
+  },
+  "md5": "ab3e76bdc25cd61781ea691d7ab8fc2c",
+  "name": "truststore",
+  "package_tarball_full_path": "/mnt/sevenT/spinfer/SpInfer_EuroSys25/ENTER/pkgs/truststore-0.10.0-py313h06a4308_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "defaults/linux-64::truststore==0.10.0=py313h06a4308_0[md5=ab3e76bdc25cd61781ea691d7ab8fc2c]",
+  "sha256": "d566ed7acd78c03fccd29ee6123e1193e9c2d7b9ead0e81e57d0029586e99930",
+  "size": 48907,
+  "subdir": "linux-64",
+  "timestamp": 1736550186000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/truststore-0.10.0-py313h06a4308_0.conda",
+  "version": "0.10.0"
+}
