@@ -10,7 +10,7 @@ files_v100 = [
     "sputnik_performance_results.csv",
     "cusparse_performance_results.csv", 
     "main_res.csv",
-    "SparTA_performance_results.csv"
+    "SparTA_v100_performance_results.csv"
 ]
 
 methods = ['cuSPARSE', 'Sputnik', 'SparTA', 'Flash-LLM', 'SpInfer']

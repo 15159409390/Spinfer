@@ -34,8 +34,8 @@ LIBRARIES := -lcublas
 LIBRARIES += -lcusparse 
 #
 ifneq ($(SPUTNIK_PATH),)
-INCLUDES  += -I${SPUTNIK_PATH}
-LIBRARIES += -L${SPUTNIK_PATH}/build/sputnik/ -lsputnik -lglog 
+	INCLUDES  += -I${SPUTNIK_PATH}
+	LIBRARIES += -L${SPUTNIK_PATH}/build/sputnik/ -lsputnik -lglog 
 endif
 #
 ifneq ($(SPMM_PATH),)
@@ -71,7 +71,7 @@ ALL_CCFLAGS += --expt-relaxed-constexpr
 ALL_CCFLAGS += -rdc=true
 ################################################################################
 # Target rules
-all: spmm_test spmm_test_sparta spmm_test_sputnik spmm_test_cusparse spmm_test_sparta_v100
+all: spmm_test spmm_test_sparta spmm_test_sputnik spmm_test_cusparse
 
 spmm_test.o:  spmm_test.cu spmm_test_utils.h sparTA.h
 	$(EXEC) $(NVCC) $(INCLUDES) $(ALL_CCFLAGS) $(GENCODE_FLAGS) -o $@ -c $<
@@ -96,12 +96,21 @@ spmm_test_cusparse.o:  spmm_test_cusparse.cu spmm_test_utils.h sparTA.h
 
 spmm_test_cusparse: spmm_test_cusparse.o
 	$(EXEC) $(NVCC) $(ALL_LDFLAGS) $(GENCODE_FLAGS) -o $@ $+ $(LIBRARIES)
+clean:
+	rm -f spmm_test spmm_test.o spmm_test_sparta.o spmm_test_sparta spmm_test_sputnik.o spmm_test_sputnik spmm_test_cusparse.o spmm_test_cusparse
 
+# 在Makefile中添加V100专用选项
+# 在第57行后添加：
+
+# V100专用编译选项
+ifdef V100_MODE
+    SMS = 70
+    ALL_CCFLAGS += -DV100_COMPATIBLE
+    # 禁用cuSPARSELt
+    LIBRARIES := -lcublas -lcusparse
+endif
 spmm_test_sparta_v100.o:  spmm_test_sparta_v100.cu spmm_test_utils.h sparTA_v100.h
-	$(EXEC) $(NVCC) $(INCLUDES) $(ALL_CCFLAGS) $(GENCODE_FLAGS) -o $@ -c $<
+$(EXEC) $(NVCC) $(INCLUDES) $(ALL_CCFLAGS) $(GENCODE_FLAGS) -o $@ -c $<
 
 spmm_test_sparta_v100: spmm_test_sparta_v100.o
-	$(EXEC) $(NVCC) $(ALL_LDFLAGS) $(GENCODE_FLAGS) -o $@ $+ $(LIBRARIES)
-
-clean:
-	rm -f spmm_test spmm_test.o spmm_test_sparta.o spmm_test_sparta spmm_test_sputnik.o spmm_test_sputnik spmm_test_cusparse.o spmm_test_cusparse spmm_test_sparta_v100.o spmm_test_sparta_v100
+$(EXEC) $(NVCC) $(ALL_LDFLAGS) $(GENCODE_FLAGS) -o $@ $+ $(LIBRARIES)
