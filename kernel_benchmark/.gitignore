@@ -1,0 +1,11 @@
+# 编译生成的文件
+spmm_test*
+*.o
+
+# 临时文件
+*.tmp
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
