@@ -7,7 +7,7 @@ files_4090 = [
     "sputnik_performance_results.csv",
     "cusparse_performance_results.csv",
     "main_res.csv",
-    "SparTA_performance_results.csv"
+    "SparTA_v100_performance_results.csv"
 ]
 
 
@@ -105,5 +105,5 @@ fig.legend(handles[:len(methods)], methods,
           bbox_to_anchor=(0.5, 1.01), fontsize=24)
 
 plt.tight_layout()
-plt.savefig('Figure10.png', dpi=300, bbox_inches='tight')
+plt.savefig('Figure10_raw.png', dpi=300, bbox_inches='tight')
 plt.close()
